@@ -2,6 +2,13 @@
     font-family: 'n27';
     src: url('../fonts/n27-regular-webfont.ttf');
 }
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+.chakra{
+    font-family: 'Chakra Petch', sans-serif;
+}
+.bahiana{
+    font-family: 'Bahiana', cursive;
+}
 
 .violet {
     background-color: #4e00ff;
@@ -223,4 +230,66 @@ body, html{
 
 .coll{
     background-color: #f7f6f7;
+}
+
+/* --------------------------------------------------- */
+
+.contact{
+    background-image: url("../img/contact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+iframe{
+    width: 100%;
+    height: 600px;
+}
+section.map.py-5 {
+    position: relative;
+    top: -200px;
+    margin-bottom: -200px;
+}
+.pinkish{
+    background-color: #f7f6f7;
+}
+.newsletter{
+    margin-top: 150px;
+}
+
+
+
+/* ------------------------------------------------------- */
+.buzadasi{
+    background-color: #292b34;
+}
+section.buzadasi-banner.pb-5 {
+    position: relative;
+    top: -300px;
+    margin-bottom: -300px;
+}
+.fs-50{
+    font-size: 50px;
+}
+
+.big-progress{
+    width: 100%;
+    height: 30px;
+}
+.small-progress{
+    height: 15px;
+    width: 100%;
+}
+.bg-yellow{
+    background-color: #ece737;
+}
+.bg-green{
+    background-color: #24ce7b;
+}
+.position-relative{
+    z-index: 10;
+}
+img.img-fluid.card-img-top.big {
+    position: relative;
+    top: -900px;
+    margin-bottom: -900px;
 }
