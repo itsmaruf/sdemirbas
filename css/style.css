@@ -145,3 +145,44 @@ a {
 .copy li{
     margin: 0 10px;
 }
+
+
+
+/* ------------------------- works ------------------------------ */
+
+.work{
+    background-image: url("../img/work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.py-200{
+    padding: 200px 0;
+}
+section.works {
+    position: relative;
+    z-index: 10;
+    top: -200px;
+    margin-bottom: -200px;
+}
+.works .card{
+    position: relative;
+    overflow: hidden;
+}
+.fs-40{
+    font-size: 40px;
+}
+.hover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 40px 5px;
+    transform: translateY(100%);
+    transition: 0.5s;
+}
+.works .card:hover .hover{
+    transform: translateY(0);
+}
