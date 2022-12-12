@@ -201,3 +201,26 @@ a.playbtn {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+
+/* ----------------------------------------------------- */
+
+.about{
+    background-image: url("../img/about.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+img.img-fluid.glass {
+    position: absolute;
+    bottom: 0;
+    right: 90px;
+    width: 300px;
+}
+body, html{
+    overflow-x: hidden;
+}
+
+.coll{
+    background-color: #f7f6f7;
+}
