@@ -186,3 +186,18 @@ section.works {
 .works .card:hover .hover{
     transform: translateY(0);
 }
+
+
+
+/* --------------------------------------------------- */
+.vitaminlgs{
+    padding-bottom: 300px !important;
+    background-color: #282a32;
+}
+a.playbtn {
+    position: absolute;
+    width: 140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
