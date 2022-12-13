@@ -22,19 +22,30 @@ a {
     font-family: 'n27';
 }
 
+.menu a{
+    letter-spacing: 3px;
+}
+
 .fs-100 {
-    font-size: 70px;
+    font-size: 100px;
 }
 
 .py-100 {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.lh-2{
+    line-height: 1.5;
+}
 
 .line {
     height: 1px;
     width: 50px;
     margin: auto;
+}
+
+.card-body, .card-img-top{
+    border-radius: 0 !important;
 }
 
 
@@ -119,7 +130,7 @@ a {
 
 /* links */
 .fs-30 {
-    font-size: 23px;
+    font-size: 30px;
 }
 
 .btn {
@@ -151,6 +162,11 @@ a {
 }
 .copy li{
     margin: 0 10px;
+    color: #acadaf !important;
+}
+.copy a{
+    color: #acadaf !important;
+    font-weight: 300;
 }
 
 
@@ -169,8 +185,8 @@ a {
 section.works {
     position: relative;
     z-index: 10;
-    top: -200px;
-    margin-bottom: -200px;
+    top: -400px;
+    margin-bottom: -400px;
 }
 .works .card{
     position: relative;
@@ -197,8 +213,8 @@ section.works {
 
 
 /* --------------------------------------------------- */
-.vitaminlgs{
-    padding-bottom: 300px !important;
+.vitaminlgs {
+    padding-bottom: 500px !important;
     background-color: #282a32;
 }
 a.playbtn {
@@ -207,6 +223,12 @@ a.playbtn {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+.card.border-0.bg-transparent.rounded-0.my-1.shadow {
+    box-shadow: 0px 4px 25px rgb(0, 0, 0, 0.4) !important;
+}
+section.details.py-5 {
+    background: #f7f6f7;
 }
 
 
@@ -239,6 +261,12 @@ body, html{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.fs-52{
+    font-size: 52px;
+}
+.fs-24{
+    font-size: 24px;
 }
 iframe{
     width: 100%;
@@ -292,4 +320,15 @@ img.img-fluid.card-img-top.big {
     position: relative;
     top: -900px;
     margin-bottom: -900px;
+}
+.fs-26{
+    font-size: 26px;
+}
+.penguin.py-5 {
+    background: #f7f6f7;
+}
+img.img-fluid.penguins {
+    position: relative;
+    top: -140px;
+    margin-bottom: -140px;
 }
