@@ -332,7 +332,7 @@ img.img-fluid.penguins {
     top: -140px;
     margin-bottom: -140px;
 }
-.mobile-menu{
+.mobile-menu, .peng-mob{
     display: none;
 }
 
@@ -403,5 +403,42 @@ img.img-fluid.penguins {
     }
     .fs-30 {
         font-size: 20px;
+    }
+
+
+    a.playbtn {
+        position: absolute;
+        width: 50px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .py-200 {
+        padding: 100px 0;
+    }
+    section.buzadasi-banner.pb-5 {
+        position: relative;
+        top: -150px;
+        margin-bottom: -150px;
+    }
+    section.texts.pb-5 * {
+        font-size: 24px;
+    }
+    .col-md-3.col-6.p-4 .fs-20 {
+        font-size: 14px;
+    }
+    .penguins, .ticketImg{
+        display: none !important;
+    }
+    .peng-mob{
+        display: block;
+    }
+    img.img-fluid.card-img-top.big {
+        position: relative;
+        top: -125px;
+        margin-bottom: -125px;
+    }
+    section.img.py-5.pinkish {
+        padding-top: 0 !important;
     }
 }
