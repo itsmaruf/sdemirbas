@@ -463,4 +463,36 @@ img.img-fluid.penguins {
     .details .fs-24 {
         font-size: 20px;
     }
+
+
+
+
+    .bg-violet.text-white.fs-40.px-5.py-2.d-inline-block.mt-5 {
+        font-size: 30px;
+        margin-bottom: -2px;
+    }
+    img.img-fluid.glass {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 150px;
+    }
+    section.coll.py-5 {
+        padding-top: 0 !important;
+    }
+    section.coll.py-5 .container-fluid {
+        padding: 16px !important;
+    }
+    .coll .row.py-5 {
+        padding-top: 0 !important;
+    }
+    .col-md-3.ps-5.d-flex.flex-column.justify-content-center.align-items-center {
+        padding-left: 16px !important;
+    }
+    .coll .fs-60{
+        font-size: 50px;
+    }
+    .glry{
+        display: none;
+    }
 }
