@@ -441,4 +441,26 @@ img.img-fluid.penguins {
     section.img.py-5.pinkish {
         padding-top: 0 !important;
     }
+
+
+
+    .vitaminlgs {
+        padding-bottom: 220px !important;
+        background-color: #282a32;
+    }
+    section.works {
+        position: relative;
+        z-index: 10;
+        top: -200px;
+        margin-bottom: -250px;
+    }
+    .text-center.w-75.mx-auto {
+        width: 100% !important;
+    }
+    .details p.fs-30.mb-0 {
+        font-size: 24px;
+    }
+    .details .fs-24 {
+        font-size: 20px;
+    }
 }
