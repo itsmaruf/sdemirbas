@@ -495,4 +495,26 @@ img.img-fluid.penguins {
     .glry{
         display: none;
     }
+
+
+
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+    .input-group {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-group input {
+        width: 100% !important;
+    }
+    label.text-muted.ms-3.fs-24 {
+        font-size: 18px;
+    }
+    form.w-75.mx-auto.mt-3 {
+        width: 100% !important;
+    }
 }
