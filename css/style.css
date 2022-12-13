@@ -332,3 +332,73 @@ img.img-fluid.penguins {
     top: -140px;
     margin-bottom: -140px;
 }
+.mobile-menu{
+    display: none;
+}
+
+
+@media screen and (max-width: 992px){
+    .menu{
+        display: none !important;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    button.menu-toggler.btn {
+        width: 60px;
+        display: block;
+        margin-left: auto;
+    }
+    .menu-items.p-5 {
+        position: absolute;
+        background: white;
+        width: 100%;
+        top: 10px;
+        left: 0;
+        transition: 0.5s;
+        transform: translateX(120%);
+    }
+    .menu-items.p-5.active{
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 767px){
+    .fs-100 {
+        font-size: 60px;
+    }
+    section.footer.pt-5.pb-3 {
+        text-align: center;
+    }
+    .footer .col-md {
+        margin-top: 20px;
+    }
+    .footer .d-flex.justify-content-start.align-items-center {
+        justify-content: center !important;
+        align-items: center;
+    }
+    .social-link {
+        color: white;
+        font-size: 25px;
+        background: white;
+        color: #30333c;
+        margin-right: 9px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    .copy ul.d-flex.justify-content-center.align-items-center.fs-14.list-unstyled.m-0.p-0 {
+        flex-wrap: wrap;
+    }
+    .copy a{
+        font-size: 12px;
+    }
+    .copy li {
+        margin: 0 3px;
+        color: #acadaf !important;
+    }
+    .fs-30 {
+        font-size: 20px;
+    }
+}
