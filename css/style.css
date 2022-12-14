@@ -562,4 +562,25 @@ img.img-fluid.penguins {
     .newsletter label{
         font-size: 15px !important;
     }
+
+
+    /* about */
+    .abt h3 {
+        font-size: 20px !important;
+    }
+    .bg-violet.text-white.fs-40.px-5.py-2.d-inline-block.mt-5 {
+        padding: 5px !important;
+        font-size: 25px;
+        width: 75%;
+    }
+    p.text-white.fs-20.cg {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .coll .fs-50, .coll .fs-60 {
+        font-size: 30px;
+    }
+    .coll .fs-26 {
+        font-size: 18px;
+    }
 }
