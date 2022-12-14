@@ -79,6 +79,10 @@ a {
     bottom: 0;
 }
 
+.bg-dark {
+    background: #30333c !important;
+}
+
 .gallery .card {
     position: relative;
 }
@@ -516,5 +520,33 @@ img.img-fluid.penguins {
     }
     form.w-75.mx-auto.mt-3 {
         width: 100% !important;
+    }
+
+
+
+    /* rev-2 */
+    section.bg.py-5 {
+        text-align: center;
+    }
+    .bg .fs-60 {
+        font-size: 38px;
+    }
+    .bg .fs-60 br:last-child {
+        display: none;
+    }
+    .bg video {
+        margin-top: 20px;
+    }
+    .footer {
+        background: #30333c !important;
+    }
+    .social-link {
+        width: 36px;
+        height: 36px;
+        font-size: 20px;
+    }
+    span.text-white.fs-20.address {
+        font-size: 16px;
+        margin-bottom: 15px;
     }
 }
