@@ -583,4 +583,16 @@ img.img-fluid.penguins {
     .coll .fs-26 {
         font-size: 18px;
     }
+    section.texts.pb-5 .fs-30, section.texts.pb-5 .fs-24 {
+        font-size: 20px !important;
+    }
+    section.texts.pb-5 * {
+        font-size: 20px;
+    }
+    .chakra.fs-30 {
+        font-size: 13px;
+    }
+    .bahiana.fs-50 {
+        font-size: 25px;
+    }
 }
